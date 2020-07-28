@@ -6,7 +6,7 @@ attr_accessor :title, :name
     @title = self
   end
 
-  def author
+  def author=(self)
     @author = self
   end
 
