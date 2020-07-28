@@ -6,4 +6,8 @@ attr_accessor :title, :name
     @title = self
   end
 
+  def author
+    @author = self
+  end
+
 end
